@@ -1,0 +1,32 @@
+.title {
+  max-width: 70%;
+  margin: 0 auto;
+  padding-top: 10rem;
+
+  &-hello {
+    color: pink;
+    font-size: 1.1rem;
+    color: rgb(0, 255, 242);
+    margin: 0;
+  }
+
+  &-name {
+    color: #ccd6f6;
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  &-catch {
+    color: #8892b0;
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  &-intro {
+    width: 50%;
+    color: #ccd6f6;
+    margin: 0;
+    font-size: 1 rem;
+  }
+}
+

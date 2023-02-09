@@ -1,24 +1,28 @@
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 2rem;
-}
+.navbar {
+  max-width: 100%;
 
-.navbar-right {
-  display: flex;
-  gap: 2rem;
-  align-items: center
-}
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+  }
 
-.navbar-links {
-  list-style-type: none;
-  display: flex;
-  gap: 2rem;
+  &-right {
+    display: flex;
+    gap: 2rem;
+    align-items: center
+  }
+
+  &-links {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+  }
 }
 
 .navbar-item-link {
   text-decoration: none;
-  color: white;
+  color: #ccd6f6;
   transition: 350ms;
 }
 

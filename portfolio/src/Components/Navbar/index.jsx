@@ -1,4 +1,4 @@
-import './styles.css';
+import './styles.scss';
 import reactLogo from '../../assets/react.svg';
 
 const Navbar = () => (
