@@ -1,0 +1,42 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 2rem;
+  align-items: center
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-item-link {
+  text-decoration: none;
+  color: white;
+  transition: 350ms;
+}
+
+.navbar-item-link:hover {
+  color: rgb(0, 255, 242);
+}
+
+.menu-button {
+  width: 7rem;
+  padding: 0.7rem;
+  background-color: transparent;
+  border: 1px rgb(0, 255, 242) solid;
+  border-radius: 8px;
+  transition: 350ms;
+  color: rgb(0, 255, 242);
+}
+
+.menu-button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 255, 242, .1);
+}
