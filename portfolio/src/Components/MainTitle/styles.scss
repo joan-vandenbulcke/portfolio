@@ -1,32 +1,57 @@
 .title {
-  max-width: 70%;
-  margin: 0 auto;
-  padding-top: 10rem;
-
+  max-width: 1000px;
+  margin: 0px auto;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  height: 100vh;
+  padding: 0px;
+  
   &-hello {
     color: pink;
-    font-size: 1.1rem;
-    color: rgb(0, 255, 242);
-    margin: 0;
+    font-size: clamp(14px, 5vw, 16px);
+    color: #63fcd8;
+    margin: 0px;
   }
 
   &-name {
     color: #ccd6f6;
-    font-size: 4rem;
-    margin: 0;
+    font-size: clamp(40px, 8vw, 80px);
+    margin: 0px;
   }
 
   &-catch {
     color: #8892b0;
-    font-size: 4rem;
-    margin: 0;
+    font-size: clamp(40px, 8vw, 80px);
+    margin: 0 0 1rem 0;
   }
 
   &-intro {
     width: 50%;
     color: #ccd6f6;
     margin: 0;
-    font-size: 1 rem;
+    font-size: 1rem;
+    margin: 0 0 2rem 0;
   }
-}
 
+  &-button {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px #63fcd8 solid;
+    border-radius: 5px;
+    transition: 350ms;
+    color: #63fcd8;
+  }
+
+  &-button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 255, 242, .1);
+  }
+  
+}
