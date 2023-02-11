@@ -1,0 +1,43 @@
+.about {
+  max-width: 900px;
+  margin: 0px auto;
+}
+
+.about-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.about-container-left {
+  width: 70%;
+}
+
+.about-container-right {
+  width: 30%;
+  background: white;
+}
+
+.about-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  gap: 0px 10px;
+  padding: 0px;
+  margin: 20px 0px 0px;
+  overflow: hidden;
+  list-style: none;
+}
+
+.about-list-item {
+  transition: 350ms;
+}
+
+.about-list-item::before {
+  content: "▹";
+  color: #63fcd8;
+  margin-right: 1rem;
+}
+
+.about-list-item:hover {
+  color: #63fcd8;
+  cursor: default;
+}
