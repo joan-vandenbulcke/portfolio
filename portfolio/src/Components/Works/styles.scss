@@ -46,7 +46,6 @@ button {
   &-item:hover {
     color: #63fcd8;
     cursor: pointer;
-    transition: 350ms;
     background-color: #152d50;
   }
 
@@ -55,11 +54,18 @@ button {
     background-color: #152d50;
     padding: 20px;
     border-left: 3px #63fcd8 solid;
+    transition: none;
     text-align: left;
   }
 }
 
+.content {
+  display: none;
+}
 
+.active-content {
+  display: block;
+}
 
 .content-tabs {
   width: 70%;

@@ -11,31 +11,31 @@ const Works = () => {
 
   return (
     <section className="work">
-      <h2 className="work-title">2. Where I've worked</h2>
+      <h2 className="work-title">Experience</h2>
       <div className="inner">
         <div className="tablist">
           <button
-            className={toggleState === 1 ? "tablist-item--active" : "tablist-item"}
+            className={toggleState === 1 ? "tablist-item tablist-item--active" : "tablist-item"}
             onClick={() => toggleTab(1)}
           >EVAS - Planet care
           </button>
           <button
-            className={toggleState === 2 ? "tablist-item--active" : "tablist-item"}
+            className={toggleState === 2 ? "tablist-item tablist-item--active" : "tablist-item"}
             onClick={() => toggleTab(2)}
           >AKINAI
           </button>
           <button
-            className={toggleState === 3 ? "tablist-item--active" : "tablist-item"}
+            className={toggleState === 3 ? "tablist-item tablist-item--active" : "tablist-item"}
             onClick={() => toggleTab(3)}
           >Escil
           </button>
           <button
-            className={toggleState === 4 ? "tablist-item--active" : "tablist-item"}
+            className={toggleState === 4 ? "tablist-item tablist-item--active" : "tablist-item"}
             onClick={() => toggleTab(4)}
           >Crédit Agricole
           </button>
           <button
-            className={toggleState === 5 ? "tablist-item--active" : "tablist-item"}
+            className={toggleState === 5 ? "tablist-item tablist-item--active" : "tablist-item"}
             onClick={() => toggleTab(5)}
           >CIC
           </button>
@@ -55,6 +55,7 @@ const Works = () => {
               </ul>
             </div>
           </div>
+
           <div
             className={toggleState === 2 ? "content active-content" : "content"}
           >
@@ -68,11 +69,12 @@ const Works = () => {
               </ul>
             </div>
           </div>
+
           <div
             className={toggleState === 3 ? "content active-content" : "content"}
           >
-            <h3 className="tab-title">Front-end web developer</h3>
-            <p className="tab-date">February to March 2023</p>
+            <h3 className="tab-title">Digital marketing manager</h3>
+            <p className="tab-date">2018 to 2020</p>
             <div className="tab-description">
               <ul className="tab-description__list">
                 <li className="tab-description__list__item">tab 1</li>
@@ -81,11 +83,12 @@ const Works = () => {
               </ul>
             </div>
           </div>
+
           <div
             className={toggleState === 4 ? "content active-content" : "content"}
           >
-            <h3 className="tab-title">Front-end web developer</h3>
-            <p className="tab-date">February to March 2023</p>
+            <h3 className="tab-title">Bank client advisor</h3>
+            <p className="tab-date">2016 to 2017 (check dates)</p>
             <div className="tab-description">
               <ul className="tab-description__list">
                 <li className="tab-description__list__item">tab 1</li>
@@ -94,10 +97,11 @@ const Works = () => {
               </ul>
             </div>
           </div>
+
           <div
             className={toggleState === 5 ? "content active-content" : "content"}
           >
-            <h3 className="tab-title">Front-end web developer</h3>
+            <h3 className="tab-title">Bank client advisor</h3>
             <p className="tab-date">February to March 2023</p>
             <div className="tab-description">
               <ul className="tab-description__list">
