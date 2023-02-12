@@ -1,7 +1,22 @@
 .work {
-  max-width: 900px;
+  max-width: 700px;
   margin: 0px auto;
   padding: 100px 0px;
+}
+
+.work-title {
+  display: flex;
+  align-items: center;
+}
+
+.work-title::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 300px;
+  height: 1px;
+  background-color: #152d50;
+  margin-left: 20px;
 }
 
 .inner {
@@ -15,7 +30,7 @@ button {
 .tablist {
   display: flex;
   flex-direction: column;
-  width: max-content;
+  width: 30%;
 
   &-item {
     background-color: transparent;
@@ -32,12 +47,17 @@ button {
     cursor: pointer;
     background-color: #152d50;
   }
+
+  &-item--active {
+    color: #63fcd8;
+    background-color: #152d50;
+  }
 }
 
 
 
 .jobs {
-  width: 100%;
+  width: 70%;
   height: auto;
   margin-left: 15px;
 }
