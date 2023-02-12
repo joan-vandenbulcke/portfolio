@@ -1,3 +1,5 @@
+@use '../../styles/vars';
+
 .work {
   max-width: 900px;
   margin: 0px auto;
@@ -44,16 +46,16 @@ button {
   }
 
   &-item:hover {
-    color: #63fcd8;
+    color: vars-color;
     cursor: pointer;
     background-color: #152d50;
   }
 
   &-item--active {
-    color: #63fcd8;
+    color: #00d8ff;
     background-color: #152d50;
     padding: 20px;
-    border-left: 3px #63fcd8 solid;
+    border-left: 3px #00d8ff solid;
     transition: none;
     text-align: left;
   }
