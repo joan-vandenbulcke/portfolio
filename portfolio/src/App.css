@@ -1,8 +1,6 @@
 #root {
   width: 100%;
   margin: 0 auto;
-  /* padding: 2rem; */
-  /* text-align: center; */
 }
 
 @keyframes logo-spin {
@@ -26,4 +24,26 @@
 
 .read-the-docs {
   color: #888;
+}
+
+::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+  padding: 5px;
+	width: 10px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44,#ccd6f6),
+									   color-stop(0.86, #8892b0));
 }
