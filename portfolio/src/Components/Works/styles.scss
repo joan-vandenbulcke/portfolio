@@ -1,5 +1,5 @@
 .work {
-  max-width: 700px;
+  max-width: 900px;
   margin: 0px auto;
   padding: 100px 0px;
 }
@@ -40,32 +40,37 @@ button {
     padding: 20px;
     border-left: #152d50 2px solid;
     width: 100%;
+    text-align: left;
   }
 
   &-item:hover {
     color: #63fcd8;
     cursor: pointer;
+    transition: 350ms;
     background-color: #152d50;
   }
 
   &-item--active {
     color: #63fcd8;
     background-color: #152d50;
+    padding: 20px;
+    border-left: 3px #63fcd8 solid;
+    text-align: left;
   }
 }
 
 
 
-.jobs {
+.content-tabs {
   width: 70%;
   height: auto;
   margin-left: 15px;
 }
 
-.job-title {
+.tab-title {
   margin: 0px;
 }
 
-.job-date {
+.tab-date {
   margin: 0px;
 }
