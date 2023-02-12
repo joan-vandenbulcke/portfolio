@@ -1,0 +1,51 @@
+.work {
+  max-width: 900px;
+  margin: 0px auto;
+  padding: 100px 0px;
+}
+
+.inner {
+  display: flex;
+}
+
+button {
+  border: 0px;
+}
+
+.tablist {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+
+  &-item {
+    background-color: transparent;
+    color: white;
+    margin: 0px;
+    transition: 350ms;
+    padding: 20px;
+    border-left: #152d50 2px solid;
+    width: 100%;
+  }
+
+  &-item:hover {
+    color: #63fcd8;
+    cursor: pointer;
+    background-color: #152d50;
+  }
+}
+
+
+
+.jobs {
+  width: 100%;
+  height: auto;
+  margin-left: 15px;
+}
+
+.job-title {
+  margin: 0px;
+}
+
+.job-date {
+  margin: 0px;
+}
