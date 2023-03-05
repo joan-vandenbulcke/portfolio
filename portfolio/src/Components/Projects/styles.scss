@@ -6,7 +6,8 @@
 
 .cards-container {
   display: flex;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 7rem;
 }
 
 .card-wrapper {
@@ -37,10 +38,10 @@
 }
 
 .ghibli-img {
-  width: 10rem;
+  width: 23rem;
   position: absolute;
-  top: -1rem;
-  left: 5rem;
+  top: -5rem;
+  left: 0rem;
 }
 
 .evas-img {

@@ -67,8 +67,8 @@ const Projects = () => (
         <div className='card-image-container ghibli'>
           <img className='ghibli-img' src={Ghibli} alt="personnages ghibli" />
         </div>
-        <p className='card-reference'>Portfolio Website</p>
-        <h3 className='card-title'>This website</h3>
+        <p className='card-reference'>Personal Side Project</p>
+        <h3 className='card-title'>Studios Ghibli Register</h3>
         <div className='card-tags'>
           <div className='card-tag node'>NodeJS</div>
           <div className='card-tag express'>Express</div>
@@ -81,8 +81,88 @@ const Projects = () => (
             <img className='card-link__view--image' src={Github} alt="" />
             <p className='card-link__view--text'>Github Repo</p>
           </div>
+          <div className='card-link github'>
+            <img className='card-link__view--image' src={View} alt="" />
+            <p className='card-link__view--text'>View online</p>
+          </div>
         </div>
       </div>
+      {/* ---------------------------------------------------------------- */}
+      <div className="card-wrapper">
+        <div className='card-image-container ghibli'>
+          <img className='ghibli-img' src={Ghibli} alt="personnages ghibli" />
+        </div>
+        <p className='card-reference'>Personal Side Project</p>
+        <h3 className='card-title'>Studios Ghibli Register</h3>
+        <div className='card-tags'>
+          <div className='card-tag node'>NodeJS</div>
+          <div className='card-tag express'>Express</div>
+          <div className='card-tag ejs'>EJS</div>
+          <div className='card-tag scss'>SCSS</div>
+        </div>
+        <p className='card-description'>Ce site référence les différentes productions des studios Ghibli dans une présentation simple. C'est un side project réalisé pour m'exercer à la manipulation de NodeJS, Express et le rendu de données en EJS.</p>
+        <div className='card-links__ghibli'>
+          <div className='card-link view'>
+            <img className='card-link__view--image' src={Github} alt="" />
+            <p className='card-link__view--text'>Github Repo</p>
+          </div>
+          <div className='card-link github'>
+            <img className='card-link__view--image' src={View} alt="" />
+            <p className='card-link__view--text'>View online</p>
+          </div>
+        </div>
+      </div>
+      {/* ---------------------------------------------------------------- */}
+      <div className="card-wrapper">
+        <div className='card-image-container ghibli'>
+          <img className='ghibli-img' src={Ghibli} alt="personnages ghibli" />
+        </div>
+        <p className='card-reference'>Personal Side Project</p>
+        <h3 className='card-title'>Studios Ghibli Register</h3>
+        <div className='card-tags'>
+          <div className='card-tag node'>NodeJS</div>
+          <div className='card-tag express'>Express</div>
+          <div className='card-tag ejs'>EJS</div>
+          <div className='card-tag scss'>SCSS</div>
+        </div>
+        <p className='card-description'>Ce site référence les différentes productions des studios Ghibli dans une présentation simple. C'est un side project réalisé pour m'exercer à la manipulation de NodeJS, Express et le rendu de données en EJS.</p>
+        <div className='card-links__ghibli'>
+          <div className='card-link view'>
+            <img className='card-link__view--image' src={Github} alt="" />
+            <p className='card-link__view--text'>Github Repo</p>
+          </div>
+          <div className='card-link github'>
+            <img className='card-link__view--image' src={View} alt="" />
+            <p className='card-link__view--text'>View online</p>
+          </div>
+        </div>
+      </div>
+      {/* ---------------------------------------------------------------- */}
+      <div className="card-wrapper">
+        <div className='card-image-container ghibli'>
+          <img className='ghibli-img' src={Ghibli} alt="personnages ghibli" />
+        </div>
+        <p className='card-reference'>Personal Side Project</p>
+        <h3 className='card-title'>Studios Ghibli Register</h3>
+        <div className='card-tags'>
+          <div className='card-tag node'>NodeJS</div>
+          <div className='card-tag express'>Express</div>
+          <div className='card-tag ejs'>EJS</div>
+          <div className='card-tag scss'>SCSS</div>
+        </div>
+        <p className='card-description'>Ce site référence les différentes productions des studios Ghibli dans une présentation simple. C'est un side project réalisé pour m'exercer à la manipulation de NodeJS, Express et le rendu de données en EJS.</p>
+        <div className='card-links__ghibli'>
+          <div className='card-link view'>
+            <img className='card-link__view--image' src={Github} alt="" />
+            <p className='card-link__view--text'>Github Repo</p>
+          </div>
+          <div className='card-link github'>
+            <img className='card-link__view--image' src={View} alt="" />
+            <p className='card-link__view--text'>View online</p>
+          </div>
+        </div>
+      </div>
+      {/* ---------------------------------------------------------------- */}
     </div>
   </section >
 );
