@@ -1,8 +1,9 @@
-import './App.css';
+import './App.scss';
 import AppHeader from './Components/AppHeader';
 import Content from './Components/Content';
 import About from './Components/About';
 import Works from './Components/Works';
+import Projects from './Components/Projects';
 
 const App = () => {
 
@@ -12,6 +13,7 @@ const App = () => {
       <Content />
       <About />
       <Works />
+      <Projects />
     </div>
   )
 }

@@ -43,6 +43,8 @@ button {
     border-left: #152d50 2px solid;
     width: 100%;
     text-align: left;
+    font-size: 1rem;
+    font-family: 'Tilt Neon', cursive;
   }
 
   &-item:hover {
@@ -81,4 +83,13 @@ button {
 
 .tab-date {
   margin: 0px;
+  font-size: 0.9rem;
+  color: #ccd6f6;
+}
+
+.company-span {
+  color: #00d8ff;
+  font-size: 1.2rem;
+  font-family: 'Tilt Neon', cursive;
+  margin-left: 0.8rem;
 }

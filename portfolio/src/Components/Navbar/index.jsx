@@ -9,23 +9,23 @@ const Navbar = () => (
         <ol className="navbar-links">
           <li
             className="navbar-item">
-            <a className="navbar-item-link" href="">About</a>
+            <a className="navbar-item-link" href=""><span className='navbar-span'>1.  </span>About</a>
           </li>
           <li
             className="navbar-item">
-            <a className="navbar-item-link" href="">Experience</a>
+            <a className="navbar-item-link" href=""><span className='navbar-span'>2. </span>Experience</a>
           </li>
           <li
             className="navbar-item">
-            <a className="navbar-item-link" href="">Work</a>
+            <a className="navbar-item-link" href=""><span className='navbar-span'>3. </span>Work</a>
           </li>
           <li
             className="navbar-item">
-            <a className="navbar-item-link" href="">School</a>
+            <a className="navbar-item-link" href=""><span className='navbar-span'>4. </span>School</a>
           </li>
           <li
             className="navbar-item">
-            <a className="navbar-item-link" href="">Contact</a>
+            <a className="navbar-item-link" href=""><span className='navbar-span'>5. </span>Contact</a>
           </li>
         </ol>
         <button className="menu-button">Resume</button>

@@ -15,7 +15,6 @@
 
 .about-container-right {
   width: 30%;
-  background: white;
 }
 
 .about-list {
@@ -41,4 +40,9 @@
 .about-list-item:hover {
   color: #00d8ff;
   cursor: default;
+}
+
+.personal-picture {
+  width: 100%;
+  margin-top: 1rem;
 }

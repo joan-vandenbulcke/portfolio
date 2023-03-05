@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+// font-family: 'Golos Text', sans-serif;
+// font-family: 'Tilt Neon', cursive;
+body {
+  font-family: 'Golos Text', sans-serif;
+  color: #e6f1ff;
+}
+
 #root {
   width: 100%;
   margin: 0 auto;
@@ -46,4 +56,18 @@
 									   left top,
 									   color-stop(0.44,#ccd6f6),
 									   color-stop(0.86, #8892b0));
+}
+
+.span {
+  font-weight: bold;
+  color: #00d8ff;
+  font-size: 1.2rem;
+  font-family: 'Tilt Neon', cursive;
+}
+
+.numbers-span {
+  color: #00d8ff;
+  font-size: 1.5rem;
+  font-family: 'Tilt Neon', cursive;
+  margin-right: 1rem;
 }

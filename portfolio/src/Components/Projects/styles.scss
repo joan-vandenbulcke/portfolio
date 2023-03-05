@@ -1,0 +1,152 @@
+.projects {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 100px 0px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.card-wrapper {
+  background: white;
+  width: 20rem;
+  display: inline-block;
+  margin: auto;
+  border-radius: 1rem;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+}
+
+.evas {
+  background: url(https://i.pinimg.com/originals/ab/46/f5/ab46f5e1687357038c0f1fb96715e0c3.webp);
+}
+
+.ghibli {
+  background: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3852.jpg);
+}
+
+.card-image-container {
+  position: relative;
+  height: 12rem;
+  margin-bottom: 2rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.ghibli-img {
+  width: 10rem;
+  position: absolute;
+  top: -1rem;
+  left: 5rem;
+}
+
+.evas-img {
+  width: 250px;
+  position: absolute;
+  top: -3rem;
+  left: 1.5rem;
+}
+
+.card-reference {
+  color: #0a192f;
+  margin: 2rem 0 0 0;
+  font-size: 0.8rem;
+}
+
+.card-title {
+  color: #0a192f;
+  margin: 0 0 1rem 0;
+}
+
+.card-description {
+  color: #9E9E9E;
+  font-size: 0.9rem;
+  padding: 0 2rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.card-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #0a192f;
+  margin: 1rem 0;
+  padding: 0 0.5rem;
+}
+
+.card-tag {
+  padding: 0.2rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+// ---------- TAGS ----------
+.react {
+  background: #00d8ff;
+}
+
+.scss {
+  background: #f396c4;
+}
+
+.sequelize {
+  background: #52b0e7;
+}
+
+.postgre {
+  background: #b9ddf9;
+}
+
+.node {
+  background: rgb(125, 222, 125);
+}
+
+.express {
+  background: rgb(208, 208, 208);
+}
+
+.ejs {
+  background: #e9b7ca;
+}
+// ---------- FIN TAGS ----------
+
+.card-links__ghibli {
+  display: flex;
+  background: #0088d1;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.card-links__evas {
+  display: flex;
+  background: #1ab161;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.card-link {
+  width: 50%;
+  padding: 1rem;
+}
+
+.view {
+  border-right: 1px solid;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.card-link__view--image {
+  width: 2rem;
+}
+
+.card-link__view--text {
+  font-size: 0.9rem;
+  margin: 0;
+}
