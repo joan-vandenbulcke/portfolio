@@ -1,7 +1,5 @@
 import './styles.scss';
 
-import { Link } from 'react'
-
 import Ghibli from '../../assets/projects/ghibli.png';
 import View from '../../assets/projects/view.png';
 import Github from '../../assets/projects/github.png';
@@ -9,7 +7,7 @@ import Evas from '../../assets/projects/evas.png';
 
 const Projects = () => (
   <section className="projects">
-    <h2 className="project-title"><span className='numbers-span'>03.</span> Projects</h2>
+    <h2 className="projects-title"><span className='numbers-span'>03.</span> Projects</h2>
     <div className='cards-container'>
       <div className="card-wrapper">
         <div className='card-image-container evas'>

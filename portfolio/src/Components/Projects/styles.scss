@@ -4,6 +4,10 @@
   padding: 100px 0px;
 }
 
+.projects-title {
+  margin-bottom: 5rem;
+}
+
 .cards-container {
   display: flex;
   flex-wrap: wrap;
@@ -66,10 +70,6 @@
   color: #9E9E9E;
   font-size: 0.9rem;
   padding: 0 2rem;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;  
-  overflow: hidden;
 }
 
 .card-tags {
