@@ -121,21 +121,40 @@
 
 .card-links__ghibli {
   display: flex;
-  background: #0088d1;
+  overflow: hidden;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
 
 .card-links__evas {
   display: flex;
-  background: #1ab161;
+  overflow: hidden;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
 
-.card-link {
-  width: 50%;
+.card-link__evas {
+  background: #1ab161;
   padding: 1rem;
+  transition: .3s;
+}
+
+.card-link__ghibli {
+  width: 100%;
+  background: #0f94d1;
+  padding: 1rem;
+  transition: .3s;
+}
+
+.card-link:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+}
+
+a {
+  width: 50%;
+  text-decoration: none;
+  color: white;
 }
 
 .view {
