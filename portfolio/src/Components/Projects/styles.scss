@@ -11,26 +11,30 @@
 .cards-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 7rem;
+  gap: 3rem;
+  justify-content: center;
 }
 
 .card-wrapper {
   background: white;
   width: 20rem;
-  display: inline-block;
-  margin: auto;
   border-radius: 1rem;
   position: relative;
   text-align: center;
   box-shadow: -1px 15px 30px -12px black;
 }
 
+// --------------- BACKGROUND -------------------
 .evas {
-  background: url(https://i.pinimg.com/originals/ab/46/f5/ab46f5e1687357038c0f1fb96715e0c3.webp);
+  background: url(https://images.unsplash.com/photo-1497211419994-14ae40a3c7a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
 }
 
 .ghibli {
-  background: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3852.jpg);
+  background: url(https://images.unsplash.com/photo-1605478185737-99ae313e940c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+}
+
+.portfolio {
+  background: url(https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
 }
 
 .card-image-container {
@@ -49,10 +53,17 @@
 }
 
 .evas-img {
-  width: 250px;
+  width: 17rem;
+  position: absolute;
+  top: -4rem;
+  left: 1rem;
+}
+
+.portfolio-img {
+  width: 17rem;
   position: absolute;
   top: -3rem;
-  left: 1.5rem;
+  left: 2rem;
 }
 
 .card-reference {
@@ -90,6 +101,20 @@
 }
 
 // ---------- TAGS ----------
+.card-tag {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.html {
+  background: rgb(255, 128, 0);
+}
+
+.javascript {
+  background: rgb(255, 234, 0);
+}
+
 .react {
   background: #00d8ff;
 }
@@ -133,6 +158,13 @@
   border-bottom-right-radius: 1rem;
 }
 
+.card-links__portfolio {
+  display: flex;
+  overflow: hidden;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
 .card-link__evas {
   background: #1ab161;
   padding: 1rem;
@@ -140,14 +172,18 @@
 }
 
 .card-link__ghibli {
-  width: 100%;
   background: #0f94d1;
   padding: 1rem;
   transition: .3s;
 }
 
+.card-link__portfolio {
+  background: #6600ff;
+  padding: 1rem;
+  transition: .3s;
+}
+
 .card-link:hover {
-  cursor: pointer;
   filter: brightness(1.2);
 }
 
@@ -155,6 +191,11 @@ a {
   width: 50%;
   text-decoration: none;
   color: white;
+  cursor: pointer;
+}
+
+.blocked-link {
+  cursor: not-allowed;
 }
 
 .view {
