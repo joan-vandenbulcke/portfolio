@@ -91,13 +91,13 @@ const Projects = () => (
         </div>
         <p className='card-description'>Ce site référence les différentes productions des studios Ghibli dans une présentation simple. C'est un side project réalisé pour m'exercer à la manipulation de NodeJS, Express et le rendu de données en EJS.</p>
         <div className='card-links__portfolio'>
-          <a href="https://github.com/joan-vandenbulcke/Ghibliotheque" target="_blank">
+          <a className='blocked-link' target="_blank">
             <div className='card-link card-link__portfolio view'>
               <GitHubIcon />
               <p className='card-link__view--text'>Github Repo</p>
             </div>
           </a>
-          <a href="https://ghibli-joan-vandenbulcke.up.railway.app/" target="_blank">
+          <a target="_blank">
             <div className='card-link card-link__portfolio github'>
               <OpenInNewRoundedIcon />
               <p className='card-link__view--text'>View online</p>

@@ -1,4 +1,4 @@
-import './styles.scss';
+import './TimelineItem.scss';
 import { FaHome } from "react-icons/fa";
 
 const TimelineItem = ({ data }) => (

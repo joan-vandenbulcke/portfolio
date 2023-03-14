@@ -2,29 +2,28 @@ export default [
   {
     title: 'Fullstack JS Web Developer',
     school: "O'Clock",
-    text: 'Details',
+    text: 'HTML, CSS, Javascript, ReactJS, Redux, NodeJS, PostreSQL and more... ',
     date: 'September 2022 to March 2023',
-    tasks: ''
   },
   {
     title: 'Bac+5 Digital Marketing',
     school: 'IDRAC',
-    text: 'Details',
-    date: 'March 03 2017',
-    tasks: ''
+    text: 'Digital Marketing (SEO, content strategy, etc.), web, communication and more...',
+    date: '2017 - 2019',
   },
   {
-    title: 'Bac+5 Digital Marketing',
-    school: 'IDRAC',
-    text: 'Details',
-    date: 'March 03 2017',
-    tasks: ''
+    title: 'Economy/Management Bachelor',
+    school: 'Université Lumière Lyon 2',
+    date: '2016 - 2017',
   },
   {
-    title: 'Bac+5 Digital Marketing',
-    school: 'IDRAC',
-    text: 'Details',
-    date: 'March 03 2017',
-    tasks: ''
+    title: 'Bank Professional Bachelor',
+    school: 'Université Lumière Lyon 2',
+    date: '2015 - 2016',
+  },
+  {
+    title: 'Bac STG (Marketing) and Bank BTS',
+    school: 'Lycée Jean-Paul Sartre',
+    date: '2013 to 2015',
   }
 ];

@@ -4,7 +4,8 @@ import Content from './Components/Content';
 import About from './Components/About';
 import Works from './Components/Works';
 import Projects from './Components/Projects';
-import Timeline from './Components/Timeline/TimelineContainer';
+import Timeline from './Components/Timeline';
+import ContactForm from './Components/ContactForm';
 
 const App = () => {
 
@@ -16,6 +17,7 @@ const App = () => {
       <Works />
       <Projects />
       <Timeline />
+      <ContactForm />
     </div>
   )
 }
