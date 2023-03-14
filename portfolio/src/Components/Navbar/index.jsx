@@ -3,7 +3,7 @@ import reactLogo from '../../assets/react.svg';
 import ArrowCircleDownRoundedIcon from '@mui/icons-material/ArrowCircleDownRounded';
 
 const Navbar = () => (
-  <div className="navbar">
+  <div id='navbar' className="navbar">
     <nav className="navbar-container">
       <img src={reactLogo} className="logo" alt="logo portfolio" />
       <div className="navbar-right">
