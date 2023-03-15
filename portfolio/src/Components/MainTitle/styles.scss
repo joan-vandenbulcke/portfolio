@@ -1,5 +1,5 @@
 .title {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0px auto;
   display: flex;
   -webkit-box-pack: center;
@@ -12,27 +12,40 @@
   padding: 0px;
   
   &-hello {
-    font-size: clamp(14px, 5vw, 16px);
+    font-size: 1.2rem;
     color: #00d8ff;
     margin: 0px;
-  }
+    }
 
   &-name {
+    font-size: 5vw;
     color: #ccd6f6;
-    font-size: clamp(40px, 8vw, 80px);
     margin: 0px;
+    background: 50% 100% / 50% 50% no-repeat
+      radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 5rem;
+    animation: reveal 3000ms ease-in-out forwards 200ms,
   }
 
   &-catch {
     color: #8892b0;
-    font-size: clamp(40px, 8vw, 80px);
     margin: 0 0 1rem 0;
+    background: 50% 100% / 50% 50% no-repeat
+      radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+    animation: reveal 3000ms ease-in-out forwards 200ms,
+    glow 2500ms linear infinite 2000ms;
   }
 
   &-intro {
     width: 50%;
     color: #ccd6f6;
-    margin: 0;
     font-size: 1rem;
     margin: 0 0 2rem 0;
   }
@@ -54,5 +67,18 @@
     cursor: pointer;
     background-color: rgb(0, 255, 242, .1);
   }
-  
+}
+
+@keyframes reveal {
+  80%{
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #fff;
+  }
 }
