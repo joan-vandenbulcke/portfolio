@@ -15,7 +15,11 @@ import { SiJavascript } from "react-icons/si";
 
 const Projects = () => (
   <section className="projects">
-    <h2 className="projects-title"><span className='numbers-span'>03.</span> Projects</h2>
+    <div className='projects-header'>
+      <h2 className="projects-title"><span className='numbers-span'>03.</span> Projects</h2>
+      <p>Découvrez les projets sur lesquels j'ai travaillé ces dernières semaines et apprenez-en plus sur mon parcours en allant les visiter !</p>
+      <p className="projects-description">N'hésitez pas à vous créer un compte sur le site EVAS et à tester les fonctionnalités de création d'une association ou d'un projet et toute autre fonctionnalité ajoutée sur la plateforme. </p>
+    </div>
     <div className='cards-container'>
       <div className="card-wrapper">
         <div className='card-image-container evas'>

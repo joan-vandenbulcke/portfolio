@@ -6,7 +6,7 @@ const TimelineItem = ({ data }) => (
     <div className="timeline-item-content">
       <time>{data.date}</time>
       <h3>{data.title}</h3>
-      <h4 className='school-title'><FaHome className='timeline-icon' />{data.school}</h4>
+      <h4 className='school-place'><FaHome className='timeline-icon' />{data.school}</h4>
       <p>{data.text}</p>
       <span className="circle" />
     </div>

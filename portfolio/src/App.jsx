@@ -6,6 +6,7 @@ import Works from './Components/Works';
 import Projects from './Components/Projects';
 import Timeline from './Components/Timeline';
 import ContactForm from './Components/ContactForm';
+import ScrollUpButton from './Components/ScrollUpButton';
 
 const App = () => {
 
@@ -18,6 +19,7 @@ const App = () => {
       <Projects />
       <Timeline />
       <ContactForm />
+      <ScrollUpButton />
     </div>
   )
 }

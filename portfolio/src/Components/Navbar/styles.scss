@@ -22,6 +22,18 @@
   }
 }
 
+.navbar-link__logo {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.navbar-logo {
+  font-size: 2rem;
+  font-family: "Golos Text", sans-serif;
+  font-weight: bold;
+}
+
 .navbar-item-link {
   text-decoration: none;
   color: #ccd6f6;
