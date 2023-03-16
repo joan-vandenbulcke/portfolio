@@ -10,7 +10,7 @@ const Works = () => {
   }
 
   return (
-    <section className="work">
+    <section id='work' className="work">
       <h2 className="work-title"><span className='numbers-span'>02.</span> Experience</h2>
       <div className="inner">
         <div className="tablist">

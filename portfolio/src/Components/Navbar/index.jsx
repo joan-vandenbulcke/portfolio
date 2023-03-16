@@ -1,6 +1,7 @@
 import './styles.scss';
 import ArrowCircleDownRoundedIcon from '@mui/icons-material/ArrowCircleDownRounded';
 import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 
 const Navbar = () => {
 
@@ -10,6 +11,12 @@ const Navbar = () => {
       behavior: 'smooth'
     });
   };
+
+  const scrollToWorks = () => {
+    window.scrollTo('#projects', {
+      behavior: 'smooth'
+    })
+  }
 
   return (
     <div id='navbar' className="navbar">
@@ -21,26 +28,64 @@ const Navbar = () => {
           <ol className="navbar-links">
             <li
               className="navbar-item">
-              <a className="navbar-item-link" href=""><span className='navbar-span'>1.  </span>About</a>
+              <ScrollLink
+                to='about'
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                className="navbar-item-link">
+                <span className='navbar-span'>1.  </span>À propos
+              </ScrollLink>
             </li>
             <li
               className="navbar-item">
-              <a className="navbar-item-link" href=""><span className='navbar-span'>2. </span>Experience</a>
+              <ScrollLink
+                to='work'
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+                className="navbar-item-link">
+                <span className='navbar-span'>2.  </span>Expériences
+              </ScrollLink>
+              {/* <a className="navbar-item-link" href="#work"><span className='navbar-span'>2. </span>Expériences</a> */}
             </li>
             <li
               className="navbar-item">
-              <a className="navbar-item-link" href=""><span className='navbar-span'>3. </span>Projects</a>
+              <ScrollLink
+                to='projects'
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="navbar-item-link">
+                <span className='navbar-span'>3.  </span>Projets
+              </ScrollLink>
             </li>
             <li
               className="navbar-item">
-              <a className="navbar-item-link" href=""><span className='navbar-span'>4. </span>School</a>
+              <ScrollLink
+                to='school'
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="navbar-item-link">
+                <span className='navbar-span'>4.  </span>Formations
+              </ScrollLink>
             </li>
             <li
               className="navbar-item">
-              <a className="navbar-item-link" href=""><span className='navbar-span'>5. </span>Contact</a>
+              <ScrollLink
+                to='contact'
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="navbar-item-link">
+                <span className='navbar-span'>5.  </span>Contact
+              </ScrollLink>
             </li>
           </ol>
-          <button className="menu-button">Resume <ArrowCircleDownRoundedIcon className='navbar-download__icon icon' /></button>
+          <button className="menu-button">CV / Resume <ArrowCircleDownRoundedIcon className='navbar-download__icon icon' /></button>
         </div>
       </nav>
     </div>

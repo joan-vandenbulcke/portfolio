@@ -25,7 +25,7 @@ const ContactForm = () => {
   }
 
   return (
-    <section className='form'>
+    <section id='contact' className='form'>
       <h2 className='form-title'><span className='numbers-span'>05.</span>Contact</h2>
       <form ref={form} onSubmit={sendEmail}>
         <div className='form-item'>
@@ -38,11 +38,11 @@ const ContactForm = () => {
         </div>
         <div className='form-item'>
           <label><span className='form-span'>*</span> Téléphone</label>
-          <input placeholder='06 07 08 09 10' required type="email" name="from_email" />
+          <input placeholder='06 07 08 09 10' required type="phone" name="from_phone" />
         </div>
         <div className='form-item'>
           <label><span className='form-span'>*</span> Message</label>
-          <textarea placeholder="N'hésitez pas à m'expliquer la raison de votre contact plus en détails ! 😊" required name="message" />
+          <textarea placeholder="N'hésitez pas à m'expliquer en détails la raison de votre venue sur mon site 😊" required name="message" />
         </div>
         <button className='form-button' type="submit">Send <BsSendFill /></button>
         <div className='error-message'>{isSuccess}</div>

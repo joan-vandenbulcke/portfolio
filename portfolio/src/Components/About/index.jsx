@@ -2,7 +2,7 @@ import './styles.scss';
 import picture from '../../assets/photo-site.jpg';
 
 const About = () => (
-  <section className="about">
+  <section id='about' className="about">
     <h2 className="about-title"><span className='numbers-span'>01.</span> About me</h2>
     <div className="about-container">
       <div className="about-container-left">

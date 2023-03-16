@@ -1,6 +1,7 @@
 .title {
   max-width: 1200px;
   margin: 0px auto;
+  padding-left: 15vw;
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
@@ -9,7 +10,6 @@
   align-items: flex-start;
   min-height: 100vh;
   height: 100vh;
-  padding: 0px;
   
   &-hello {
     font-size: 1.2rem;

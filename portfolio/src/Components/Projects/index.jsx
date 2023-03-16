@@ -14,7 +14,7 @@ import { SiPostgresql } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
 
 const Projects = () => (
-  <section className="projects">
+  <section id='projects' className="projects">
     <div className='projects-header'>
       <h2 className="projects-title"><span className='numbers-span'>03.</span> Projects</h2>
       <p>Découvrez les projets sur lesquels j'ai travaillé ces dernières semaines et apprenez-en plus sur mon parcours en allant les visiter !</p>
