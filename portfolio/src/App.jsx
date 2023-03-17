@@ -7,7 +7,7 @@ import Projects from './Components/Projects';
 import Timeline from './Components/Timeline';
 import ContactForm from './Components/ContactForm';
 import ScrollUpButton from './Components/ScrollUpButton';
-import ResumeModal from './Components/ResumeModal';
+// import ResumeModal from './Components/ResumeModal';
 
 const App = () => {
 
@@ -21,7 +21,7 @@ const App = () => {
       <Timeline />
       <ContactForm />
       <ScrollUpButton />
-      <ResumeModal />
+      {/* <ResumeModal /> */}
     </div>
   )
 }

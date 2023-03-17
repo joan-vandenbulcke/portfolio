@@ -85,7 +85,9 @@ const Navbar = () => {
               </ScrollLink>
             </li>
           </ol>
-          <button className="menu-button">CV / Resume <ArrowCircleDownRoundedIcon className='navbar-download__icon icon' /></button>
+          <a className='navbar-display__pdf' href="src\assets\cv-joan-vandenbulcke.pdf" target="_blank">
+            <button className="menu-button">CV / Resume <ArrowCircleDownRoundedIcon className='navbar-download__icon icon' /></button>
+          </a>
         </div>
       </nav>
     </div>
