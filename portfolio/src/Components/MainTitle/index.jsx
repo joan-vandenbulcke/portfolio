@@ -1,4 +1,5 @@
 import './styles.scss';
+import { Link as ScrollLink } from 'react-scroll';
 
 const MainTitle = () => (
   <div className="title">
@@ -8,7 +9,15 @@ const MainTitle = () => (
     <p className="title-intro">Ut ac tortor vitae sapien molestie accumsan. Maecenas facilisis felis dui, nec tristique eros elementum sit amet. Mauris a egestas tortor, sit amet aliquet ante.</p>
     <a href="#projects">
       <button className="title-button">
-        Check my projects !
+        <ScrollLink
+          to='projects'
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-150}
+        >
+          Check my projects !
+        </ScrollLink>
       </button>
     </a>
   </div>

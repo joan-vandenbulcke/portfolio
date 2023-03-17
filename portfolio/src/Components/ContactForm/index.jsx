@@ -26,7 +26,7 @@ const ContactForm = () => {
 
   return (
     <section id='contact' className='form'>
-      <h2 className='form-title'><span className='numbers-span'>05.</span>Contact</h2>
+      <h2 className='form-title'><span className='numbers-span'>06.</span>Contact</h2>
       <form ref={form} onSubmit={sendEmail}>
         <div className='form-item'>
           <label><span className='form-span'>*</span> Name</label>

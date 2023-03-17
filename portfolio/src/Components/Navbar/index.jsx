@@ -35,7 +35,7 @@ const Navbar = () => {
                 offset={-100}
                 duration={500}
                 className="navbar-item-link">
-                <span className='navbar-span'>1.  </span>À propos
+                <span className='navbar-span'>1.  </span>About
               </ScrollLink>
             </li>
             <li
@@ -47,7 +47,7 @@ const Navbar = () => {
                 offset={-100}
                 duration={500}
                 className="navbar-item-link">
-                <span className='navbar-span'>2.  </span>Expériences
+                <span className='navbar-span'>2.  </span>Experience
               </ScrollLink>
               {/* <a className="navbar-item-link" href="#work"><span className='navbar-span'>2. </span>Expériences</a> */}
             </li>
@@ -58,8 +58,21 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
+                offset={-150}
                 className="navbar-item-link">
-                <span className='navbar-span'>3.  </span>Projets
+                <span className='navbar-span'>3.  </span>Projects
+              </ScrollLink>
+            </li>
+            <li
+              className="navbar-item">
+              <ScrollLink
+                to='skills'
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-150}
+                className="navbar-item-link">
+                <span className='navbar-span'>4.  </span>Skills
               </ScrollLink>
             </li>
             <li
@@ -70,7 +83,7 @@ const Navbar = () => {
                 smooth={true}
                 duration={500}
                 className="navbar-item-link">
-                <span className='navbar-span'>4.  </span>Formations
+                <span className='navbar-span'>5.  </span>School
               </ScrollLink>
             </li>
             <li
@@ -81,7 +94,7 @@ const Navbar = () => {
                 smooth={true}
                 duration={500}
                 className="navbar-item-link">
-                <span className='navbar-span'>5.  </span>Contact
+                <span className='navbar-span'>6.  </span>Contact
               </ScrollLink>
             </li>
           </ol>

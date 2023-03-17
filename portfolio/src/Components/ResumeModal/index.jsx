@@ -1,6 +1,5 @@
 import './styles.scss';
 import Resume from '../../assets/resume.png';
-import { MdOutlineOpenInNew } from "react-icons/md";
 import { useState } from 'react';
 
 const ResumeModal = () => {

@@ -22,14 +22,19 @@
   }
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar-link__logo {
   display: flex;
   align-items: center;
   width: fit-content;
+  color: white;
 }
 
 .navbar-logo {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Golos Text", sans-serif;
   font-weight: bold;
 }
@@ -46,6 +51,7 @@
 }
 
 .navbar-item-link:hover {
+  cursor: pointer;
   color: #00d8ff;
 }
 
