@@ -3,7 +3,7 @@
 .work {
   max-width: 900px;
   margin: 0px auto;
-  padding: 100px 0px;
+  padding: 2rem;
 }
 
 .work-title {
@@ -92,4 +92,54 @@ button {
   font-size: 1.2rem;
   font-family: 'Tilt Neon', cursive;
   margin-left: 0.8rem;
+}
+
+//RESPONSIVE DESIGN
+@media screen and (max-width: 750px) {
+
+  .tablist-item {
+    font-size: 0.9rem;
+  }
+
+  .tab-description {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+
+  .tablist-item {
+    font-size: 0.8rem;
+  }
+
+  .tab-description {
+    font-size: 0.9rem;
+  }
+
+  .tab-title {
+    font-size: 0.9rem;
+  }
+
+  .company-span {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+
+  .tablist-item {
+    font-size: 0.8rem;
+  }
+
+  .tab-description {
+    font-size: 0.9rem;
+  }
+
+  .tab-title {
+    font-size: 0.9rem;
+  }
+
+  .company-span {
+    font-size: 0.9rem;
+  }
 }

@@ -22,8 +22,6 @@ import { GoSettings } from "react-icons/go";
 import { DiScrum } from "react-icons/di";
 import { BsWordpress } from "react-icons/bs";
 import { FaListOl } from "react-icons/fa";
-// import { DiScrum } from "react-icons/di";
-// import { DiScrum } from "react-icons/di";
 
 const Skills = () => {
 

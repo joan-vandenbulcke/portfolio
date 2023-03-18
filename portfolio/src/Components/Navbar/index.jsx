@@ -2,9 +2,17 @@ import './styles.scss';
 import ArrowCircleDownRoundedIcon from '@mui/icons-material/ArrowCircleDownRounded';
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
+import { useState } from 'react';
 
 const Navbar = () => {
 
+  const [showLinks, setShowLinks] = useState(false);
+
+  const handleShowLinks = () => {
+    setShowLinks(!showLinks)
+  }
+
+  // SCROLL TO TOP
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -17,7 +25,7 @@ const Navbar = () => {
       behavior: 'smooth'
     })
   }
-
+  // --------------------------
   return (
     <div id='navbar' className="navbar">
       <nav className="navbar-container">
@@ -70,7 +78,6 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-150}
                 className="navbar-item-link">
                 <span className='navbar-span'>4.  </span>Skills
               </ScrollLink>

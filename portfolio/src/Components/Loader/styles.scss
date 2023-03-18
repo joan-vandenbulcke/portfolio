@@ -1,0 +1,75 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';
+
+$primary-color: #1e90ff ;
+$secondary-color: #ffe221;
+$tertiary-color: #ffffff;
+
+.loader-container{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: pink;
+  z-index: 9999;
+}
+
+.loader-title {
+  width: 100%;
+  font-size: 6rem;
+  text-transform: uppercase;
+  
+  
+  span{
+    width: 100%;
+    float: left;
+    color: $tertiary-color;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+    transform: translateY(-50px);
+    opacity: 0;
+    animation-name: titleAnimation;
+    animation-timing-function:ease;
+    animation-duration: 3s;
+  }
+}
+.loader-title span{
+  animation-delay: 0.6s;
+  animation-fill-mode: forwards;
+
+  &:first-child{
+    animation-delay: 0.7s;
+
+  }
+
+  &:last-child{
+    color: $secondary-color;
+    animation-delay: 0.5s;
+  }
+}
+
+@keyframes titleAnimation {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+      -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+  }
+  20% {
+      transform: translateY(0);
+      opacity: 1;
+      -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+  80% {
+       transform: translateY(0);
+       opacity: 1;
+      -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+  100% {
+       transform: translateY(50px);
+       opacity: 0;
+      -webkit-clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);
+      clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);
+    
+  }
+}

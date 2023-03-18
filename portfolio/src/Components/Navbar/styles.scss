@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 20px 50px;
+  padding: 1rem 4rem;
 
   &-container {
     display: flex;
@@ -103,4 +103,81 @@ a {
   color: #00d8ff;
   font-size: 0.9rem;
   font-family: 'Tilt Neon', cursive;
+}
+
+// BUGER MENU
+
+@media screen and (max-width: 1000px) {
+
+  .navbar-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: -100vw;
+    bottom: 0;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    visibility: hidden;
+    padding-right: 0;
+  }
+
+  .show-navbar .navbar-links {
+    right: 0;
+    width: 100vw;
+    visibility: visible;
+    z-index: 1000;
+  }
+
+  .navbar-links a {
+    display: block;
+    padding: 0.5rem;
+    font-size: 5vw;
+    }
+
+  .navbar-burger {
+    display: block;
+    position: relative;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1001;
+  }
+
+  .navbar-burger:hover {
+    cursor: pointer;
+  }
+
+  .burger-bar,
+  .burger-bar::before,
+  .burger-bar::after {
+    display: block;
+    width: 40px;
+    height: 3px;
+    position: relative;
+    border-radius: 3px;
+    background: rgb(0, 0, 0);
+    transition: all .5s ease-in-out;
+  }
+  .burger-bar::before,
+  .burger-bar::after {
+    content: "";
+    position: absolute;
+    left: 0;
+  }
+  .burger-bar::before {
+    transform: translateY(-12px);
+  }
+  .burger-bar::after {
+    transform: translateY(12px);
+  }
+  .show-navbar .burger-bar::before {
+    transform: rotate(45deg);
+  }
+  .show-navbar .burger-bar::after {
+    transform: rotate(-45deg);
+  }
+  .show-navbar .burger-bar {
+    width: 0;
+    background: transparent;
+  }
 }

@@ -1,5 +1,6 @@
 import './styles.scss';
 import picture from '../../assets/photo-site.jpg';
+import { MdRadioButtonChecked } from "react-icons/md";
 
 const About = () => (
   <section id='about' className="about">
@@ -11,12 +12,12 @@ const About = () => (
         <p className="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ante lectus. Nulla fringilla at nibh sit amet varius. Etiam semper, dui id pharetra facilisis, nunc nunc suscipit est, ac convallis orci tortor laoreet erat.</p>
         <p className="about-text">My skills :</p>
         <ul className="about-list">
-          <li className="about-list-item">Javascript ES6+</li>
-          <li className="about-list-item">React</li>
-          <li className="about-list-item">Node.js</li>
-          <li className="about-list-item">PostgreSQL</li>
-          <li className="about-list-item">Express</li>
-          <li className="about-list-item">Sequelize</li>
+          <li className="about-list-item"><MdRadioButtonChecked /> Javascript ES6+</li>
+          <li className="about-list-item"><MdRadioButtonChecked /> React</li>
+          <li className="about-list-item"><MdRadioButtonChecked /> Node.js</li>
+          <li className="about-list-item"><MdRadioButtonChecked /> PostgreSQL</li>
+          <li className="about-list-item"><MdRadioButtonChecked /> Express</li>
+          <li className="about-list-item"><MdRadioButtonChecked /> Redux</li>
         </ul>
       </div>
       <div className="about-container-right">

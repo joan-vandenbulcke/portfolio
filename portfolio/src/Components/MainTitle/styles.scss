@@ -18,7 +18,6 @@
     }
 
   &-name {
-    font-size: 5vw;
     color: #ccd6f6;
     margin: 0px;
     background: 50% 100% / 50% 50% no-repeat
@@ -69,6 +68,7 @@
   }
 }
 
+// EFFECT ON TITLE
 @keyframes reveal {
   80%{
     letter-spacing: 8px;
@@ -80,5 +80,104 @@
 @keyframes glow {
   40% {
     text-shadow: 0 0 8px #fff;
+  }
+}
+
+// -------------- REPONSIVE DESIGN ---------------
+@media screen and (max-width: 940px) {
+  .title {
+    padding: 2rem;
+  }
+  
+  .title-name {
+    font-size: 4rem;
+  }
+
+  .title-catch {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  .title {
+    padding-top: 10rem;
+    min-height: auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
+
+  .title-name {
+    font-size: 3rem;
+  }
+
+  .title-catch {
+    font-size: 1.5rem;
+  }
+
+  .title-intro {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+
+  .title {
+    justify-content: flex-start;
+    padding-top: 10rem;
+    height: auto;
+    min-height: auto;
+  }
+  
+  .title-name {
+    font-size: 2.5rem;
+  }
+
+  .title-catch {
+    font-size: 1.3rem;
+  }
+
+  .title-intro {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+
+  .title-name {
+    font-size: 2rem;
+  }
+
+  .title-catch {
+    font-size: 1.3rem;
+  }
+
+  .title-intro {
+    width: 80%;
+  }
+
+  .title-intro {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+
+  .title-name {
+    font-size: 1.5rem;
+  }
+
+  .title-catch {
+    font-size: 1rem;
+  }
+
+  .title-intro {
+    width: 80%;
+  }
+
+  .title-intro {
+    font-size: 0.7rem;
   }
 }
