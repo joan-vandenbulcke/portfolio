@@ -105,6 +105,9 @@ const Navbar = () => {
               </ScrollLink>
             </li>
           </ol>
+          <button className='navbar-burger'>
+            <span className='burger-bar'></span>
+          </button>
           <a className='navbar-display__pdf' href="src\assets\cv-joan-vandenbulcke.pdf" target="_blank">
             <button className="menu-button">CV / Resume <ArrowCircleDownRoundedIcon className='navbar-download__icon icon' /></button>
           </a>

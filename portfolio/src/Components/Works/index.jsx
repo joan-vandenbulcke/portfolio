@@ -17,27 +17,27 @@ const Works = () => {
           <button
             className={toggleState === 1 ? "tablist-item tablist-item--active" : "tablist-item"}
             onClick={() => toggleTab(1)}
-          >EVAS - Planet care
+          >EVAS
           </button>
           <button
             className={toggleState === 2 ? "tablist-item tablist-item--active" : "tablist-item"}
             onClick={() => toggleTab(2)}
-          >AKINAI - Communication & Marketing
+          >AKINAI
           </button>
           <button
             className={toggleState === 3 ? "tablist-item tablist-item--active" : "tablist-item"}
             onClick={() => toggleTab(3)}
-          >Freelance - Digital Marketing
+          >Freelance
           </button>
           <button
             className={toggleState === 4 ? "tablist-item tablist-item--active" : "tablist-item"}
             onClick={() => toggleTab(4)}
-          >Escil - Industry
+          >Escil
           </button>
           <button
             className={toggleState === 5 ? "tablist-item tablist-item--active" : "tablist-item"}
             onClick={() => toggleTab(5)}
-          >CIC & Crédit Agricole - Bank
+          >CIC & Crédit Agricole
           </button>
         </div>
 
@@ -49,10 +49,10 @@ const Works = () => {
             <p className="tab-date">February to March 2023</p>
             <div className="tab-description">
               <ul className="tab-description__list">
-                <li className="tab-description__list__item">Brief with customer, project specifications, planning</li>
-                <li className="tab-description__list__item">Choice of programming language and librairies/frameworks</li>
-                <li className="tab-description__list__item">Front-end development</li>
-                <li className="tab-description__list__item">Help back-end team for the database</li>
+                <li className="tab-description__list--item">Brief with customer, project specifications, planning</li>
+                <li className="tab-description__list--item">Choice of programming language and librairies/frameworks</li>
+                <li className="tab-description__list--item">Front-end development</li>
+                <li className="tab-description__list--item">Help back-end team for the database</li>
               </ul>
             </div>
           </div>

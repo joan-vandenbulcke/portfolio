@@ -107,7 +107,7 @@ a {
 
 // BUGER MENU
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1020px) {
 
   .navbar-links {
     flex-direction: column;
@@ -129,7 +129,7 @@ a {
     z-index: 1000;
   }
 
-  .navbar-links a {
+  .navbar-links li {
     display: block;
     padding: 0.5rem;
     font-size: 5vw;

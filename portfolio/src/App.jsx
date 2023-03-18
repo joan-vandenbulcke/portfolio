@@ -8,7 +8,6 @@ import Timeline from './Components/Timeline';
 import ContactForm from './Components/ContactForm';
 import ScrollUpButton from './Components/ScrollUpButton';
 import Skills from './Components/Skills';
-// import Loader from './Components/Loader';
 import { useState, useEffect } from 'react';
 
 const App = () => {
@@ -30,11 +29,11 @@ const App = () => {
       <Content />
       <About />
       <Works />
-      {/* <Projects /> */}
-      {/* <Skills />
+      <Projects />
+      <Skills />
       <Timeline />
       <ContactForm />
-      <ScrollUpButton /> */}
+      <ScrollUpButton />
     </div>
   );
 }

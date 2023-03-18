@@ -1,7 +1,7 @@
 .form {
   max-width: 1200px;
   margin: 0px auto;
-  padding: 100px 0px;
+  padding: 10rem 2rem;
 }
 
 .form-title {
@@ -14,6 +14,7 @@ form {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  width: 100%;
 }
 
 .form-item {
@@ -48,7 +49,7 @@ form {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  width: 15%;
+  width: 10rem;
   padding: 1rem;
   border: none;
   border-radius: 0.5rem;
@@ -71,4 +72,27 @@ form {
 
 ::placeholder {
   font-family: 'Golos Text', sans-serif;
+}
+
+// REPONSIVE
+
+@media screen and (max-width: 1270px) {
+
+  .form-item {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .form-item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  #contact {
+    padding: 2rem;
+  }
 }
