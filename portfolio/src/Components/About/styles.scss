@@ -14,12 +14,27 @@
 }
 
 .about-container-right {
+  display: flex;
   width: 30%;
+  height: 50%;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.about-container-right:hover::after {
+  display: block;
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, rgb(0, 64, 255, 0.3) 0%,rgb(0, 213, 255, 0.3) 100%);
+  transition: height 0.5s ease-out;
 }
 
 .personal-picture {
   width: 100%;
-  border-radius: 0.5rem;
+  object-fit: cover;
 }
 
 .about-list {

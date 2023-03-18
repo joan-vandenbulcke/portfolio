@@ -21,7 +21,7 @@ const About = () => (
         </ul>
       </div>
       <div className="about-container-right">
-        <img className="personal-picture" src={picture} alt="My picture" />
+        <img className="picture personal-picture" src={picture} alt="My picture" />
       </div>
     </div>
   </section>

@@ -161,6 +161,15 @@
   .title-intro {
     font-size: 0.8rem;
   }
+
+  @keyframes reveal {
+    80%{
+      letter-spacing: 2px;
+    }
+    100% {
+      background-size: 300% 300%;
+    }
+  }
 }
 
 @media screen and (max-width: 390px) {

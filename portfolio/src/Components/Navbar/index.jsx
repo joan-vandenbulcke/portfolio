@@ -6,8 +6,11 @@ import { useState } from 'react';
 
 const Navbar = () => {
 
-  const [showLinks, setShowLinks] = useState(false);
+  // CLOSE BURGER MENU ON SCROLL
 
+
+  // BURGER MENU
+  const [showLinks, setShowLinks] = useState(false);
   const handleShowLinks = () => {
     setShowLinks(!showLinks)
   }
@@ -36,9 +39,9 @@ const Navbar = () => {
           <ol className="navbar-links">
             <li
               className="navbar-item"
-              onClick={handleShowLinks}
             >
               <ScrollLink
+                onClick={handleShowLinks}
                 to='about'
                 spy={true}
                 smooth={true}
@@ -50,9 +53,9 @@ const Navbar = () => {
             </li>
             <li
               className="navbar-item"
-              onClick={handleShowLinks}
             >
               <ScrollLink
+                onClick={handleShowLinks}
                 to='work'
                 spy={true}
                 smooth={true}
@@ -65,9 +68,9 @@ const Navbar = () => {
             </li>
             <li
               className="navbar-item"
-              onClick={handleShowLinks}
             >
               <ScrollLink
+                onClick={handleShowLinks}
                 to='projects'
                 spy={true}
                 smooth={true}
@@ -78,9 +81,9 @@ const Navbar = () => {
             </li>
             <li
               className="navbar-item"
-              onClick={handleShowLinks}
             >
               <ScrollLink
+                onClick={handleShowLinks}
                 to='skills'
                 spy={true}
                 smooth={true}
@@ -92,9 +95,9 @@ const Navbar = () => {
             </li>
             <li
               className="navbar-item"
-              onClick={handleShowLinks}
             >
               <ScrollLink
+                onClick={handleShowLinks}
                 to='school'
                 spy={true}
                 smooth={true}
@@ -106,9 +109,9 @@ const Navbar = () => {
             </li>
             <li
               className="navbar-item"
-              onClick={handleShowLinks}
             >
               <ScrollLink
+                onClick={handleShowLinks}
                 to='contact'
                 spy={true}
                 smooth={true}
