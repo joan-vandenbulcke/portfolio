@@ -34,7 +34,7 @@ const Projects = () => (
           <div className='card-tag express'>Express <SiExpress /></div>
           <div className='card-tag postgre'>PostgreSQL <SiPostgresql /></div>
         </div>
-        <p className='card-description'>J'ai occupé le poste de développeur front-end React pour l'entreprise EVAS qui met en relation des entreprises et des associations pour financer des projets environnementaux. </p>
+        <p className='card-description'>I held the position of React front-end developer for EVAS, a company that connects businesses and associations to finance environmental projects.</p>
         <div className='card-links__evas'>
           <a className='blocked-link'>
             <div className='card-link card-link__evas view'>
@@ -64,7 +64,7 @@ const Projects = () => (
           <div className='card-tag ejs'>EJS</div>
           <div className='card-tag scss'>SCSS <FaSass /></div>
         </div>
-        <p className='card-description'>Ce site référence les différentes productions des studios Ghibli dans une présentation simple. C'est un side project réalisé pour m'exercer à la manipulation de NodeJS, Express et le rendu de données en EJS.</p>
+        <p className='card-description'>This website lists the different productions of Studio Ghibli in a simple presentation. It is a side project I created to practice using NodeJS, Express, and rendering data in EJS.</p>
         <div className='card-links__ghibli'>
           <a href="https://github.com/joan-vandenbulcke/Ghibliotheque" target="_blank">
             <div className='card-link card-link__ghibli view'>
@@ -93,7 +93,7 @@ const Projects = () => (
           <div className='card-tag javascript'>Javascript <SiJavascript /></div>
           <div className='card-tag react'>React<FaReact /></div>
         </div>
-        <p className='card-description'>Ce site référence les différentes productions des studios Ghibli dans une présentation simple. C'est un side project réalisé pour m'exercer à la manipulation de NodeJS, Express et le rendu de données en EJS.</p>
+        <p className='card-description'>This website is developed in React and includes interactive features to display my education, manage automatic scrolling through links/buttons, change the display of certain elements, and more !</p>
         <div className='card-links__portfolio'>
           <a className='blocked-link' target="_blank">
             <div className='card-link card-link__portfolio view'>

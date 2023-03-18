@@ -54,6 +54,7 @@ const Works = () => {
                 <li className="tab-description__list--item">Front-end development</li>
                 <li className="tab-description__list--item">Help back-end team for the database</li>
               </ul>
+              <p>More details in Projects : check out the project link bellow !</p>
             </div>
           </div>
 
@@ -64,13 +65,13 @@ const Works = () => {
             <p className="tab-date">2020 to 2022</p>
             <div className="tab-description">
               <ul className="tab-description__list">
-                <li className="tab-description__list__item">Refontes et gestion de sites web clients</li>
-                <li className="tab-description__list__item">Pilotage des projets clients et projets internes</li>
-                <li className="tab-description__list__item">Planification et producation / réalisation des contenus</li>
-                <li className="tab-description__list__item">Gestion administrative, tarification et développement commercial</li>
-                <li className="tab-description__list__item">Gestion des relations clients, prestataires et partenaires</li>
-                <li className="tab-description__list__item">Gestion d'un grand réseau de panneaux d'affichage</li>
-                <li className="tab-description__list__item">Gestion de diverses campagnes clients</li>
+                <li className="tab-description__list__item">Website redesigns and management for clients</li>
+                <li className="tab-description__list__item">Management of client and internal projects</li>
+                <li className="tab-description__list__item">Planning and production of content</li>
+                <li className="tab-description__list__item">Administrative management, pricing, and business development</li>
+                <li className="tab-description__list__item">Management of client, provider, and partner relationships</li>
+                <li className="tab-description__list__item">Management of a large network of billboards</li>
+                <li className="tab-description__list__item">Management of various client campaigns</li>
               </ul>
             </div>
           </div>
@@ -82,8 +83,8 @@ const Works = () => {
             <p className="tab-date">2019 to 2020</p>
             <div className="tab-description">
               <ul className="tab-description__list">
-                <li className="tab-description__list__item">Création de sites web et contenus web divers</li>
-                <li className="tab-description__list__item">Consulting et audits marketing digital</li>
+                <li className="tab-description__list__item">Creation of websites and various web content</li>
+                <li className="tab-description__list__item">Consulting and digital marketing audits</li>
               </ul>
             </div>
           </div>
@@ -95,9 +96,9 @@ const Works = () => {
             <p className="tab-date">2017 to 2019</p>
             <div className="tab-description">
               <ul className="tab-description__list">
-                <li className="tab-description__list__item">Gestion du projet de refonte du site web e-commerce</li>
-                <li className="tab-description__list__item">Gestion du site e-commerce</li>
-                <li className="tab-description__list__item">Community management, sponsoring, création de contenus</li>
+                <li className="tab-description__list__item">Management of the e-commerce website redesign project</li>
+                <li className="tab-description__list__item">Management of the e-commerce website</li>
+                <li className="tab-description__list__item">Community management, sponsorship, content creation</li>
               </ul>
             </div>
           </div>

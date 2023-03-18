@@ -13,6 +13,10 @@
   width: 70%;
 }
 
+.about-text {
+  line-height: 1.7;
+}
+
 .about-container-right {
   display: flex;
   width: 30%;
@@ -22,14 +26,14 @@
   position: relative;
 }
 
-.about-container-right:hover::after {
+.about-container-right:after {
   display: block;
   position: absolute;
   content: "";
   height: 100%;
   width: 100%;
-  background: linear-gradient(to bottom, rgb(0, 64, 255, 0.3) 0%,rgb(0, 213, 255, 0.3) 100%);
-  transition: height 0.5s ease-out;
+  transition: .3s;
+  background: linear-gradient(to bottom, rgb(0, 64, 255, 0.3) 0%,rgb(0, 213, 255, 0.2) 100%);
 }
 
 .personal-picture {
