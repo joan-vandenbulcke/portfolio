@@ -5,10 +5,11 @@ import About from './Components/About';
 import Works from './Components/Works';
 import Projects from './Components/Projects';
 import Timeline from './Components/Timeline';
-import ContactForm from './Components/ContactForm';
+import ContactForm from './Components/Footer';
 import ScrollUpButton from './Components/ScrollUpButton';
 import Skills from './Components/Skills';
-import { useState, useEffect } from 'react';
+import Footer from './Components/MoreContact';
+// import { useState, useEffect } from 'react';
 
 const App = () => {
 
@@ -34,6 +35,7 @@ const App = () => {
       <Timeline />
       <ContactForm />
       <ScrollUpButton />
+      <Footer />
     </div>
   );
 }
